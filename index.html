@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TTS Demos</title>
+  <style>
+    body {
+      margin: 0% 0%;
+      padding: 50px 30px;
+      background: #fff;
+      color: #111;
+      font-size: 17px;
+      font-family: sans-serif;
+      font-weight: 400;
+      line-height: 1.8;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+    .srctext {font-size: 22px;}
+    h1 {font-size: 1.75em;}
+    h2 {margin-bottom: 0.4em;}
+    hr {
+      height: 0.5px;
+      border-width: 0;
+      color: lightgray;
+      background-color: lightgray
+    }
+    table {width: 100%;}
+    audio {width: 250px;}
+  </style>
+</head>
+
+<body>
+  <h1>An Investigation on Speech Synthesis with Self-Supervisedly Learnt Prosodic Representations</h1>
+  <p>
+
+  <div><b>Authors</b>: <em>Anonymous submission to INTERSPEECH 2023</em></div>
+  <div><b>Abstract</b>: ...    </div>
+  <hr>
+
+
+  <table>
+    <tr>
+      <th style="text-align: center">GT</th>
+<th style="text-align: center">FS2</th>
+<th style="text-align: center">PR_F0Energy</th>
+<th style="text-align: center">S4LPR_V</th>
+<th style="text-align: center">S4LPR_LPC</th>
+<th style="text-align: center">S4LPR_MT</th>
+    </tr>
+    <tr>
+      <td style="text-align: center"><audio controls="controls"><source src="./GT\00000112.wav" autoplay /></audio></td>
+<td style="text-align: center"><audio controls="controls"><source src="./FS2\00000112.wav" autoplay /></audio></td>
+<td style="text-align: center"><audio controls="controls"><source src="./PR_F0Energy\00000112.wav" autoplay /></audio></td>
+<td style="text-align: center"><audio controls="controls"><source src="./S4LPR_V\00000112.wav" autoplay /></audio></td>
+<td style="text-align: center"><audio controls="controls"><source src="./S4LPR_LPC\00000112.wav" autoplay /></audio></td>
+<td style="text-align: center"><audio controls="controls"><source src="./S4LPR_MT\00000112.wav" autoplay /></audio></td>
+    </tr>
+  </table>
+  <div class="srctext"><b>Text</b>: <em>里面的 走廊 宽阔 而 阴森  ， 头顶 是 绿罩灯  ， 脚下的 地毯 很厚  ， 厚到 扔一个 摔炮 上去 都不会 发出 声音  。</em></div>
+
+  <hr>
+
+
+  <table>
+    <tr>
+      <th style="text-align: center">GT</th>
+<th style="text-align: center">FS2</th>
+<th style="text-align: center">PR_F0Energy</th>
+<th style="text-align: center">S4LPR_V</th>
+<th style="text-align: center">S4LPR_LPC</th>
+<th style="text-align: center">S4LPR_MT</th>
+    </tr>
+    <tr>
+      <td style="text-align: center"><audio controls="controls"><source src="./GT\00000640.wav" autoplay /></audio></td>
+<td style="text-align: center"><audio controls="controls"><source src="./FS2\00000640.wav" autoplay /></audio></td>
+<td style="text-align: center"><audio controls="controls"><source src="./PR_F0Energy\00000640.wav" autoplay /></audio></td>
+<td style="text-align: center"><audio controls="controls"><source src="./S4LPR_V\00000640.wav" autoplay /></audio></td>
+<td style="text-align: center"><audio controls="controls"><source src="./S4LPR_LPC\00000640.wav" autoplay /></audio></td>
+<td style="text-align: center"><audio controls="controls"><source src="./S4LPR_MT\00000640.wav" autoplay /></audio></td>
+    </tr>
+  </table>
+  <div class="srctext"><b>Text</b>: <em>封口 被 撞裂 开来  ， 佛头 从 里面 滚出来  ， 顺着 书堆 咕噜 下去  ， 咣当 一声 砸在 水泥 地上  。</em></div>
+
+  <hr>
+
+
+  <table>
+    <tr>
+      <th style="text-align: center">GT</th>
+<th style="text-align: center">FS2</th>
+<th style="text-align: center">PR_F0Energy</th>
+<th style="text-align: center">S4LPR_V</th>
+<th style="text-align: center">S4LPR_LPC</th>
+<th style="text-align: center">S4LPR_MT</th>
+    </tr>
+    <tr>
+      <td style="text-align: center"><audio controls="controls"><source src="./GT\00015144.wav" autoplay /></audio></td>
+<td style="text-align: center"><audio controls="controls"><source src="./FS2\00015144.wav" autoplay /></audio></td>
+<td style="text-align: center"><audio controls="controls"><source src="./PR_F0Energy\00015144.wav" autoplay /></audio></td>
+<td style="text-align: center"><audio controls="controls"><source src="./S4LPR_V\00015144.wav" autoplay /></audio></td>
+<td style="text-align: center"><audio controls="controls"><source src="./S4LPR_LPC\00015144.wav" autoplay /></audio></td>
+<td style="text-align: center"><audio controls="controls"><source src="./S4LPR_MT\00015144.wav" autoplay /></audio></td>
+    </tr>
+  </table>
+  <div class="srctext"><b>Text</b>: <em>总而 言之  ， 这些 女武神 正在 奋力 扫描 战场  ， 随时 做好 战斗 准备  ， 不论 扫描到 什么 敌友  。</em></div>
+
+  <hr>
+
+
+  <table>
+    <tr>
+      <th style="text-align: center">GT</th>
+<th style="text-align: center">FS2</th>
+<th style="text-align: center">PR_F0Energy</th>
+<th style="text-align: center">S4LPR_V</th>
+<th style="text-align: center">S4LPR_LPC</th>
+<th style="text-align: center">S4LPR_MT</th>
+    </tr>
+    <tr>
+      <td style="text-align: center"><audio controls="controls"><source src="./GT\00015288.wav" autoplay /></audio></td>
+<td style="text-align: center"><audio controls="controls"><source src="./FS2\00015288.wav" autoplay /></audio></td>
+<td style="text-align: center"><audio controls="controls"><source src="./PR_F0Energy\00015288.wav" autoplay /></audio></td>
+<td style="text-align: center"><audio controls="controls"><source src="./S4LPR_V\00015288.wav" autoplay /></audio></td>
+<td style="text-align: center"><audio controls="controls"><source src="./S4LPR_LPC\00015288.wav" autoplay /></audio></td>
+<td style="text-align: center"><audio controls="controls"><source src="./S4LPR_MT\00015288.wav" autoplay /></audio></td>
+    </tr>
+  </table>
+  <div class="srctext"><b>Text</b>: <em>故此  ， 摩诃叶 不惜 施展 苦肉计 死守 捱招  ， 直到 最关键 时刻 方才 奇兵 突出  ， 要一击 制胜  。</em></div>
+
+  <hr>
+
+
+  <table>
+    <tr>
+      <th style="text-align: center">GT</th>
+<th style="text-align: center">FS2</th>
+<th style="text-align: center">PR_F0Energy</th>
+<th style="text-align: center">S4LPR_V</th>
+<th style="text-align: center">S4LPR_LPC</th>
+<th style="text-align: center">S4LPR_MT</th>
+    </tr>
+    <tr>
+      <td style="text-align: center"><audio controls="controls"><source src="./GT\00005099.wav" autoplay /></audio></td>
+<td style="text-align: center"><audio controls="controls"><source src="./FS2\00005099.wav" autoplay /></audio></td>
+<td style="text-align: center"><audio controls="controls"><source src="./PR_F0Energy\00005099.wav" autoplay /></audio></td>
+<td style="text-align: center"><audio controls="controls"><source src="./S4LPR_V\00005099.wav" autoplay /></audio></td>
+<td style="text-align: center"><audio controls="controls"><source src="./S4LPR_LPC\00005099.wav" autoplay /></audio></td>
+<td style="text-align: center"><audio controls="controls"><source src="./S4LPR_MT\00005099.wav" autoplay /></audio></td>
+    </tr>
+  </table>
+  <div class="srctext"><b>Text</b>: <em>曾思涛 脑子里 这么 想的 时候  ， 不觉的 骂自己 很扯淡  ， 胡思 乱想的 水平 最近 有 飞跃的 意思  。</em></div>
+
+  <hr>
+
+
+  <table>
+    <tr>
+      <th style="text-align: center">GT</th>
+<th style="text-align: center">FS2</th>
+<th style="text-align: center">PR_F0Energy</th>
+<th style="text-align: center">S4LPR_V</th>
+<th style="text-align: center">S4LPR_LPC</th>
+<th style="text-align: center">S4LPR_MT</th>
+    </tr>
+    <tr>
+      <td style="text-align: center"><audio controls="controls"><source src="./GT\00000195.wav" autoplay /></audio></td>
+<td style="text-align: center"><audio controls="controls"><source src="./FS2\00000195.wav" autoplay /></audio></td>
+<td style="text-align: center"><audio controls="controls"><source src="./PR_F0Energy\00000195.wav" autoplay /></audio></td>
+<td style="text-align: center"><audio controls="controls"><source src="./S4LPR_V\00000195.wav" autoplay /></audio></td>
+<td style="text-align: center"><audio controls="controls"><source src="./S4LPR_LPC\00000195.wav" autoplay /></audio></td>
+<td style="text-align: center"><audio controls="controls"><source src="./S4LPR_MT\00000195.wav" autoplay /></audio></td>
+    </tr>
+  </table>
+  <div class="srctext"><b>Text</b>: <em>这里 是间 办公室  ， 当中 一张 厚实的 办公桌  ， 两侧 两个 大书架 足足 占了 两面墙  。</em></div>
+
+  <hr>
+
+
+  <table>
+    <tr>
+      <th style="text-align: center">GT</th>
+<th style="text-align: center">FS2</th>
+<th style="text-align: center">PR_F0Energy</th>
+<th style="text-align: center">S4LPR_V</th>
+<th style="text-align: center">S4LPR_LPC</th>
+<th style="text-align: center">S4LPR_MT</th>
+    </tr>
+    <tr>
+      <td style="text-align: center"><audio controls="controls"><source src="./GT\00009645.wav" autoplay /></audio></td>
+<td style="text-align: center"><audio controls="controls"><source src="./FS2\00009645.wav" autoplay /></audio></td>
+<td style="text-align: center"><audio controls="controls"><source src="./PR_F0Energy\00009645.wav" autoplay /></audio></td>
+<td style="text-align: center"><audio controls="controls"><source src="./S4LPR_V\00009645.wav" autoplay /></audio></td>
+<td style="text-align: center"><audio controls="controls"><source src="./S4LPR_LPC\00009645.wav" autoplay /></audio></td>
+<td style="text-align: center"><audio controls="controls"><source src="./S4LPR_MT\00009645.wav" autoplay /></audio></td>
+    </tr>
+  </table>
+  <div class="srctext"><b>Text</b>: <em>有的 果农 干脆 在 鲜桃堆 插一根 树枝  ， 挂个 塑料袋  ， 让 路人 自己 拿桃子  ， 自己 往 袋子里 扔钱  。</em></div>
+
+  <hr>
+
+
+  <table>
+    <tr>
+      <th style="text-align: center">GT</th>
+<th style="text-align: center">FS2</th>
+<th style="text-align: center">PR_F0Energy</th>
+<th style="text-align: center">S4LPR_V</th>
+<th style="text-align: center">S4LPR_LPC</th>
+<th style="text-align: center">S4LPR_MT</th>
+    </tr>
+    <tr>
+      <td style="text-align: center"><audio controls="controls"><source src="./GT\00006394.wav" autoplay /></audio></td>
+<td style="text-align: center"><audio controls="controls"><source src="./FS2\00006394.wav" autoplay /></audio></td>
+<td style="text-align: center"><audio controls="controls"><source src="./PR_F0Energy\00006394.wav" autoplay /></audio></td>
+<td style="text-align: center"><audio controls="controls"><source src="./S4LPR_V\00006394.wav" autoplay /></audio></td>
+<td style="text-align: center"><audio controls="controls"><source src="./S4LPR_LPC\00006394.wav" autoplay /></audio></td>
+<td style="text-align: center"><audio controls="controls"><source src="./S4LPR_MT\00006394.wav" autoplay /></audio></td>
+    </tr>
+  </table>
+  <div class="srctext"><b>Text</b>: <em>每说 一个 名字  ， 左拉 就会 伸出 一根 手指  ， 晶莹 如玉的 手指 散发着 柔和的 光泽  ， 伸到 卢杰 面前  。</em></div>
+
+  <hr>
+
+  </p>
+  <hr>
+</body>
+</html>
